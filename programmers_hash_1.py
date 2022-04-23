@@ -11,4 +11,9 @@ def solution(participant, completion):
     for com in completion:
         tmp -= hash(com)
 
+    print(dic)
     return dic[tmp]
+
+a = {"a", "b", "c"}
+b = {"a", "c"}
+print(solution(a, b))
