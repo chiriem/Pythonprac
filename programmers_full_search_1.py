@@ -22,6 +22,7 @@ def solution(answers):
         if results[i] == max(results.values()):
             answer.append(i)
 
+
     print(results)
 
     return answer
